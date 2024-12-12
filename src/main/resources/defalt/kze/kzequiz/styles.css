@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&display=swap');
+
+.bazaLayer {
+    -fx-background-image: url("bck.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+}
+
+.animateLabel {
+    -fx-font-family:"Pixelify Sans", sans-serif;
+}
+.toolbar {
+    -fx-background-color: black;
+}
+
+.closeButton {
+    -fx-background-color: #974747;
+}
+.minimizeButton {
+    -fx-background-color: #806f00;
+}
+
+.toolbarButtons {
+    -fx-border-radius: 50;
+}
+
+.startButton {
+
+    -fx-background-color:
+            linear-gradient(#ffd65b, #e68400),
+            linear-gradient(#ffef84, #f2ba44),
+            linear-gradient(#ffea6a, #efaa22),
+            linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+}
+
+.allText {
+    -fx-font-family: "Pixelify Sans", sans-serif;
+}
+
+.layerSetting {
+
+    -fx-background-image: url("setBck.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+}
+
+
+
+#question {
+    -fx-wrap-text: true;
+    font-family: "Oswald", sans-serif;
+}
+
+
+.answerButtons {
+    -fx-background-color: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-border-radius: 15;
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0, 3, 3);
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-width: 2;
+    -fx-alignment: center;
+    -fx-pref-width: 200px;
+}
+
+.answerButtons:hover {
+    -fx-background-color: linear-gradient(to bottom, #feb47b, #ff7e5f);
+    -fx-border-color: #ff7e5f;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 10, 0, 5, 5);
+}
+
+.answerButtons:pressed {
+    -fx-background-color: linear-gradient(to bottom, #ff6a39, #ff7e5f);
+    -fx-effect: none;
+}
