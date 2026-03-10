@@ -14,7 +14,8 @@ Joc Quiz pe baza API-ului "OpenTrivia".
 ![Screenshot](images/img2.png)
 
 ## Tehnologii folosite
+- Java
+- JavaFX
+- OpenTrivia API
+  
 
--Java
--JavaFX
--OpenTrivia API
