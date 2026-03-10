@@ -9,7 +9,7 @@ Joc Quiz pe baza API-ului "OpenTrivia".
 - Scor
 
 ## Screenshots
-![Screenshot]()
+![Screenshot](image(1).png)
 ![Screenshot]()
 ![Screenshot]()
 
