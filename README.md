@@ -13,3 +13,8 @@ Joc Quiz pe baza API-ului "OpenTrivia".
 ![Screenshot](images/img1.png)
 ![Screenshot](images/img2.png)
 
+## Tehnologii folosite
+
+-Java
+-JavaFX
+-OpenTrivia API
